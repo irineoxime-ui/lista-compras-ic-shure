@@ -1,7 +1,7 @@
 <?php
 // Intentar leer las variables de entorno de Azure, si no, usar localhost
 $host = getenv('DB_HOST') ?: 'localhost';
-$dbname = getenv('DB_NAME') ?: 'lista_compras';
+$dbname = getenv('DB_NAME') ?: 'lista-compras';
 $username = getenv('DB_USER') ?: 'root';
 $password = getenv('DB_PASS') ?: '';
 
